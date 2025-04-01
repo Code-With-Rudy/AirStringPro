@@ -331,6 +331,28 @@
             position: relative;
             overflow: hidden;
         }
+        .pdf-container {
+            width: 100%;
+            height: 800px; 
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 20px auto;
+            overflow: hidden;
+            position: relative;
+            background: rgba(255, 255, 255, 0.05);
+          }
+        
+          
+          .pdf-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+            }
+        
+        
         
         .download-card::before {
             content: '';
@@ -568,6 +590,7 @@
         <div class="video-container fade-in">
             <iframe src="https://www.youtube.com/embed/OHo47AT4Zvs" allowfullscreen></iframe>
         </div>
+        
     </section>
     
     <!-- Download Section -->
@@ -610,11 +633,24 @@
     <li>cvzone for simplified computer vision functions</li>  
     <li>pygame.midi for MIDI sound generation</li>  
 </ul>  
-
+<P></P>
 <p><strong>Technologies Used:</strong></p>  
 <p>This project is built using OpenCV for real-time hand tracking, cvzone for gesture detection, and pygame.midi for playing MIDI notes. These technologies work together to create an intuitive and interactive air instrument experience.</p>
-        </div>
+<p><strong>Presentaion Slides</strong></p> 
+
+
+    </div>
+    <div class="pdf-container">
+        
+        <iframe src="https://drive.google.com/file/d/1DIqYkjlybAO-_aU8sxHeJ25jCZGw-KoM/preview" width="100%" height="500"></iframe>
+    </div>
+    <div class="feature-icon">
+        <i class="fas fa-graduation-cap"></i>
+    </div>
+    <P>This slide is developed and designed by Rounak Chakraborty</P>
+      
     </section>
+
     
     <footer id="contact">
         <div class="social-links">
@@ -658,4 +694,6 @@
         });
     </script>
 </body>
+
+
 </html>
